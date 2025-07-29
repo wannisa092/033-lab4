@@ -1,0 +1,79 @@
+tr td{
+    color: #ffffff;
+}
+#tbody2>tr{
+    color: #ffffff;
+}
+aside p+p{
+    color: #ffffff;
+}
+#saturn th {
+    color: #ffffff;
+}
+#section{
+    box-shadow: white;
+}
+#jupiter{
+    
+    background-image: url(../images/Jupiter.jpg);
+}
+#saturn{
+    
+    background-image: url(../images/Saturn.jpg);
+}
+#uranus{
+    
+    background-image: url(../images/Uranus.jpg);
+}
+#neptune{
+    
+    background-image: url(../images/Neptune.jpg);
+}
+
+body {
+    width: 900px ;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+header {
+    text-align: center;
+}
+h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+a{ 
+    color: #ffa304;
+    font-weight: bold;
+}
+li {
+    list-style: none;
+    float: left;
+    margin-top: 0 85px;
+}
+menu{ 
+    padding: 0px 10px;
+}
+main{
+    margin-top: 50px;
+}
+table {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border-spacing: 0px;
+}
+caption {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: left;
+}
+th, td{
+    text-align: left;
+}
+section{
+    
+}
