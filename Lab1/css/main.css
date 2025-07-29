@@ -5,75 +5,65 @@ tr td{
     color: #ffffff;
 }
 aside p+p{
-    color: #ffffff;
+    color: #04ff48;
 }
 #saturn th {
     color: #ffffff;
 }
-#section{
-    box-shadow: white;
+section{
+    box-shadow: rgb(255, 255, 255);
+    text-align: left;
 }
 #jupiter{
-    
+
     background-image: url(../images/Jupiter.jpg);
 }
 #saturn{
-    
     background-image: url(../images/Saturn.jpg);
 }
 #uranus{
-    
     background-image: url(../images/Uranus.jpg);
 }
 #neptune{
-    
     background-image: url(../images/Neptune.jpg);
 }
 
 body {
-    width: 900px ;
-    margin: 0 auto;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    font-family: sans-serif;
+  width: 900px;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
 }
-header {
-    text-align: center;
+  header {
+  text-align: center;
 }
-h2 {
-    font-size: 20px;
-    margin-top: 0;
+section {
+  border: 1px solid white;
+  padding: 20px;
 }
-a{ 
-    color: #ffa304;
-    font-weight: bold;
+nav {
+  margin: 0 0 0 85px;
+  text-align: left;
 }
-li {
-    list-style: none;
-    float: left;
-    margin-top: 0 85px;
+  nav a {
+    color: rgb(255, 153, 0);
 }
-menu{ 
-    padding: 0px 10px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
-main{
-    margin-top: 50px;
+a:any-link {
+    color : rgb(255, 153, 0);
 }
-table {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    border-spacing: 0px;
-}
-caption {
-    margin-bottom: 10px;
-    font-size: 0.9em;
-    font-weight: bold;
-    text-align: left;
-}
-th, td{
-    text-align: left;
-}
-section{
-    
+
+footer {
+  text-align: center;
+  background-color: rgb(68, 127, 255);
+  padding: 10px;
+  border: 1px solid white;
+  
 }
